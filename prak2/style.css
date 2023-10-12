@@ -1,0 +1,90 @@
+html{
+    background-color: #fff;
+}
+
+body{
+    justify-content: center;
+}
+
+.cv{
+    background-color: #ddd;
+    margin: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: start;
+    background: linear-gradient(rgb(153, 30, 153), rgb(9, 212, 87));
+    padding: 20px;
+}
+
+.gambar{
+    width: 250px;
+    border-radius: 27%;
+    border-style: dotted;
+    border-color: white;
+}
+
+.judul{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding: 5px;
+    background-color: black;
+}
+
+.menu a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.tentang {
+    margin: 10px 0px 10px 0px ;
+    padding: 20px;
+    background: linear-gradient(rgb(9, 212, 87), rgb(50, 193, 236));
+}
+
+.subjudul{
+    color: white;
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+}
+
+.pengalaman {
+    margin: 10px 0px 10px 0px;
+    padding: 20px;
+    background: linear-gradient(rgb(50, 193, 236), rgb(232, 40, 66));
+}
+
+.pengalaman table{
+    color: white;
+    width: 100%;
+    border-color: black;
+    text-align: center;
+}
+
+.pertanyaan{
+    margin: 10px 0px 10px 0px;
+    padding: 20px;
+    background: linear-gradient(rgb(232, 40, 66), rgb(211, 214, 39));
+}
+
+.kontak button{
+    background-color: aquamarine;
+}
+
+.bawah{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
