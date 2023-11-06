@@ -1,0 +1,53 @@
+//Heni Artha Uli br Turnip
+//121140080
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heni</title>
+</head>
+
+<body>
+
+    <script>
+        for(let i=1; i<=5; i++){
+
+            var n = +prompt("Pilih fungsi(1-5): ", "");
+            var a = +prompt("Masukkan angka 1: ", "");
+            var b = +prompt("Masukkan angka 2: ", "");
+                if(n==1){
+                    function tambah(a, b){
+                    return a+b;
+                    } 
+                    console.log("Penjumlahan: " + a + " + " + b + " = " + " " + tambah(a, b));
+                } else if(n==2){
+                    function kurang(a, b){
+                    return a-b;
+                    }
+                    console.log("Pengurangan: " + a + " - " + b + " = "+ " " + kurang(a, b));
+                } else if(n==3){
+                    function kali(a, b){
+                    return a*b;
+                    }
+                    console.log("Perkalian: " + a + "*" + b + " = " + " " + kali(a, b));
+                } else if(n==4){
+                    function bagi(a, b){
+                    return a/b;
+                    }
+                    console.log("Pembagian: " + a + "/" + b + " = " + " " + bagi(a, b));
+                }else if(n==5){
+                    function modulo(a, b){
+                    return a%b;
+                    }
+                    console.log("modulo: " + a + "%" + b + " = " + " " + modulo(a, b));
+                }
+        }
+        
+    </script>
+</body>
+//kalkulator, silahkan masukkan angka 1-5 untuk pengoperasian kalkulator
+// 1(penjumlahan); 2(pengurangan); 3(perkalian); 4(pembagian); 5(modulo)
+//masukkan angka 1 dan 2 untuk dioperasikan sesuai pilihan pengoperasian
